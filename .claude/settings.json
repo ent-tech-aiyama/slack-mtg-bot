@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/notify-ntfy.py\"",
+            "timeout": 20,
+            "async": true,
+            "statusMessage": "スマホへ通知を送信中..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/notify-ntfy.py\"",
+            "timeout": 20,
+            "async": true,
+            "statusMessage": "スマホへ通知を送信中..."
+          }
+        ]
+      }
+    ]
+  }
+}
